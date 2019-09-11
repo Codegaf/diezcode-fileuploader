@@ -1,6 +1,6 @@
 <?php
 
-namespace diezcode\fileuploader;
+namespace codegaf\fileuploader;
 
 use Illuminate\Support\ServiceProvider;
 
