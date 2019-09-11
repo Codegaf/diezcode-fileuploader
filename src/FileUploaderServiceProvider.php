@@ -25,7 +25,7 @@ class FileUploaderServiceProvider extends ServiceProvider
     {
         include __DIR__.'/FileUploader/FileUploader.php';
         $this->publishes([
-            __DIR__.'/app/FileUploader/FileUploader.php' => base_path('vendor/codegaf/fileuploader/src/FileUploader/FileUploader.php')
+            base_path('vendor/codegaf/fileuploader/src/app/FileUploader') => base_path('app/FileUploader')
         ]);
     }
 }
