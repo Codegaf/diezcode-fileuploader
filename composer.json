@@ -1,0 +1,24 @@
+{
+    "name": "10code/file-uploader",
+    "description": "Package for file upload management",
+    "authors": [
+        {
+            "name": "10code",
+            "email": "info@10code.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "diezcode\\fileuploader\\FileUploaderServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "diezcode\\fileuploader\\": "src/"
+        }
+    }
+}
