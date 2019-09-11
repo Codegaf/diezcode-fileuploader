@@ -23,6 +23,6 @@ class FileUploaderServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'app/FileUploader/FileUploader.php';
+        include __DIR__.'/FileUploader/FileUploader.php';
     }
 }
