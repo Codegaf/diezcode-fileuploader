@@ -3,8 +3,8 @@
     "description": "Package for file upload management",
     "authors": [
         {
-            "name": "10code",
-            "email": "info@10code.es"
+            "name": "codegaf",
+            "email": "icampos@10code.es"
         }
     ],
     "minimum-stability": "dev",
@@ -12,13 +12,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "diezcode\\fileuploader\\FileUploaderServiceProvider"
+                "codegaf\\fileuploader\\FileUploaderServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "diezcode\\fileuploader\\": "src/"
+            "codegaf\\fileuploader\\": "src/"
         }
     }
 }
