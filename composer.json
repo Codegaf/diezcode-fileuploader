@@ -23,5 +23,11 @@
         "psr-4": {
             "codegaf\\fileuploader\\": "src/"
         }
-    }
+    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "git@github.com:Codegaf/fileuploader.git",
+        }
+    ]
 }
