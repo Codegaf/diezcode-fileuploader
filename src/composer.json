@@ -1,0 +1,27 @@
+{
+    "name": "codegaf/fileuploader",
+    "description": "Package for file upload management",
+    "authors": [
+        {
+            "name": "codegaf",
+            "email": "icampos@10code.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codegaf\\fileuploader\\FileUploaderServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "codegaf\\fileuploader\\": "src/"
+        }
+    }
+}
